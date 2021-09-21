@@ -9,7 +9,7 @@ jobs:
   build_and_publish:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: python
+      IMAGE_NAME: mycli
     steps:
       - name: Checkout
         uses: actions/checkout@v2
