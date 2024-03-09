@@ -1,4 +1,4 @@
-FROM ghcr.io/longkey1/python:latest
+FROM ghcr.io/longkey1/python:slim
 
 # Install mycli
 RUN pip3 install mycli
