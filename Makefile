@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
-repo := ghcr.io/longkey1/python
-tags := latest slim
+repo := python
+tags := latest
 
 define build_git_branch
 	git checkout master
